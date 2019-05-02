@@ -54,7 +54,7 @@ looker.plugins.visualizations.add({
         var firstRow = data[0];
         var firstCell = firstRow[queryResponse.fields.dimensions[0].name];
 
-        console.log(fqueryResponse);
+        console.log(queryResponse);
 
         // Insert the data into the page.
         this._textElement.innerHTML = LookerCharts.Utils.htmlForCell(firstCell);
